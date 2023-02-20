@@ -88,3 +88,20 @@ body{
     border-radius: 8px;
     background: linear-gradient(45deg, #F3CCFF, #A555EC);
 }
+
+@media screen and (max-width: 767px) {
+    #signup{
+        background: #e7ab74;
+        min-width: 300px;
+    }
+    .signup__content{
+        width: 100%;
+    }
+    .signup__content>h1{
+        text-align: center;
+    }
+    .submit{
+        display: block;
+        margin: auto;
+    }
+}
